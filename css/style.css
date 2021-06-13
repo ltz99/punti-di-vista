@@ -1,0 +1,146 @@
+h1 {
+  margin-top: 0em;
+  margin-bottom: 0em;
+  text-align: center;
+  font-family: 'Amatic SC', cursive;
+  font-size: 11em;
+  color: black;
+  font-weight: 300;
+  }
+
+nav ul li {
+  font-family: 'Amatic SC', cursive;
+  font-size: 3em;
+  display: inline-block;
+  margin-left: 12%;
+  text-align: center;
+  }
+
+nav ul li a {
+  color: black;
+  text-decoration: none;
+  }
+
+  ul {
+    background-color: white;
+    list-style-type: none;
+  }
+
+body {
+  background-image: url(../img/sfondo.jpg);
+  background-size: cover;
+  }
+
+  .documentazione {
+    background-image: none;
+    background-color:RGB(210,210,210);
+    }
+
+  .active {
+      text-decoration: underline;
+  }
+
+div {
+  display: inline;
+  text-align: center;
+  margin-top: 1em;
+  margin-bottom: 0em;
+  margin-left: 3em;
+  margin-right:3em;
+  }
+
+
+div.container-fluid {
+style= background-color: white;
+  }
+
+img {
+  border: 1em solid white;
+  }
+
+fieldset {
+  font-family: 'Inconsolata', monospace;
+  margin-left: auto;
+  margin-right: auto;
+  }
+
+legend {
+    font-family: 'Amatic SC', cursive;
+    font-size: 5em;
+  }
+
+.fa-instagram {
+font-size: 60px;
+color:black;
+  }
+
+.instagram {
+  text-align: center;
+  background-color: white;
+    }
+
+.fas {
+  color: black;
+  }
+
+
+  @media (max-width: 576.98px) {
+  	nav ul { margin-left: 0px;}
+  	nav ul li { display: block;}
+  }
+
+  p  {
+    text-align: left;
+    }
+
+  .mappa {
+    text-align: center;
+    }
+
+      ul {
+  list-style-type: none;
+  }
+
+  .luogo {
+    font-family: 'Amatic SC', cursive;
+    font-size: 2em;
+    text-align:center;
+    color: black;
+    background-color: white;
+    display: inline;
+  }
+
+  #luoghi{
+    font-family: 'Amatic SC', cursive;
+    font-size: 1em;
+    text-align:center;
+    display: inline;
+  }
+
+#cate {
+  float: right;
+  }
+
+  h2 {
+    margin-top: 0em;
+    margin-bottom: 0em;
+    text-align: left;
+    font-family: 'Amatic SC', cursive;
+    font-size: 3em;
+    color: #F5D56E;
+    font-weight: 300;
+    background-color: white;
+    margin-right: 0em;
+    margin-left: -4em;
+    }
+
+h3 {
+    font-family: 'Amatic SC', cursive;
+    font-size: 5em;
+    background-color: #F5D56E;
+    text-align: center;
+  }
+
+.wireframe {
+  align: center;
+  }
